@@ -15,3 +15,8 @@ function deleteFromObjectByKey(map, dish) {
   delete newMap[dish]
   return newMap
 }
+
+function destructivelyDeleteFromObjectByKey(map, dish) {
+  delete map[dish]
+  return map
+}
